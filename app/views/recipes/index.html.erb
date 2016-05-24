@@ -1,7 +1,6 @@
-<h1>All Recipes</h1>
-<hr/>
+<%= render 'shared/pagetitle', title: 'All Recipes' %>
 
-<% @Recipes.each do |r| %>
+<% @recipes.each do |r| %>
 <div class="row">
   <div class="col-md-2">
     <section class="chef_info center">
